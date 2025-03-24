@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reg-Form</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+</head>
+<body>
+	<div class="gradient">
+		
+	</div>
+	<form action="#" target="_blank" method="get" autocomplete="on" novalidate>
+		<fieldset class="Reg-Form">
+			<p class="Reg-hed">Registration Form</p>
+			<label for="nameId" class="nam"> First Name</label><br>
+		<input type="text" name="name" value="" id="nameId" placeholder="" class="box">
+		<br>
+			<label for="nameI" class="nam"> Last Name</label><br>
+		<input type="text" name="name" value="" id="nameI" placeholder="" class="box">
+		<br>
+		<label for="birthday" class="nam"> Birthday</label><br>
+		<input type="datalist" value="" list="birthday" placeholder="" class="box1"><i class="fa-solid fa-calendar-week"></i>	
+			<datalist id="birthday">
+				<option value="Jan">
+				<option value="Feb">
+				<option value="March">
+				<option value="April">
+				<option value="May">
+				<option value="June">
+				<option value="July">
+			</datalist><br>
+			<p class="nam">Gender</p>
+			<input type="radio" name="gender" id="male1" value="Male" class="rad">
+			<label for="male1" class="mal">Male</label>
+			<input type="radio" name="gender" id="female1" value="Female" class="rad1">
+		<label for="female1" class="nam">Female</label>
+		
+		<br>
+	<label for="emailId" class="nam">Email</label><br>
+		<input type="email" name="email" id="emailId" value="" placeholder="" class="box">
+		<br>
+		<label for="numberId" class="nam">Phone Number</label><br>
+		<input type="tel" name="name6" id="numberId" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  placeholder="" class="box"><br>
+		<label for="grades" class="nam">Subject</label><br>
+		<select id="grades" name="gradeSelect" class="box2">
+			<option selected value="Choose option" class="nam1">Choose option</option>
+			<option value="English">English</option>
+			<option value="Urdu">Urdu</option>
+			<option value="Math">Math</option>
+			<option value="Physics">Physics</option>
+		</select>
+		<button type="submit" class="btn">Submit</button>
+	</form>
+
+</body>
+</html>
